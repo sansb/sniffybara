@@ -124,6 +124,10 @@ module Sniffybara
       super(path)
       process_accessibility_issues
     end
+
+    def render(path)
+      super(path)
+    end
   end
 end
 
